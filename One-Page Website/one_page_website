@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My One Page Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    nav {
+      background-color: #388e3c;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    #home h1 {
+      font-size: 2.5em;
+    }
+
+    #gallery img {
+      width: 200px;
+      margin: 10px;
+      border: 3px solid #66bb6a;
+      border-radius: 8px;
+    }
+
+    #video iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 340px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin: 10px 0;
+      padding: 10px;
+      border: 2px solid #a5d6a7;
+      border-radius: 5px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #66bb6a;
+      border: none;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#video">Videos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to My Green Website</h1>
+    <p>Experience tranquility, sustainability, and nature all in one place. Dive into a refreshing digital experience designed with a calming green aesthetic.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Image Gallery</h2>
+    <img src="https://cdn.pixabay.com/photo/2017/11/06/17/05/vegetable-2924245_1280.jpg" alt="Nature 1">
+    <img src="https://cdn.pixabay.com/photo/2016/11/18/16/51/leaves-1835780_1280.jpg" alt="Nature 2">
+    <img src="https://cdn.pixabay.com/photo/2018/05/04/21/22/meadow-3375052_1280.jpg" alt="Nature 3">
+  </section>
+
+  <section id="video">
+    <h2>Watch Our Story</h2>
+    <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My One Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
